@@ -298,9 +298,9 @@ function showBackArrow(id) {
     var top = $(("#" + id)).position().top;
     var url;
     if (top > 200) {//列表将向下走
-        url = "url(\"image/" + currentbankName + "_arrowU.png\")";
+        url = "url(\"/static/image/" + currentbankName + "_arrowU.png\")";
     } else {
-        url = "url(\"image/" + currentbankName + "_arrowD.png\")";
+        url = "url(\"/static/image/" + currentbankName + "_arrowD.png\")";
     }
     $("#arrowB").css({
         "background-image": url
