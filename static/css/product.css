@@ -15,7 +15,7 @@
     padding: 15px 10px;
     z-index:3;
     display: inline;
-    background: url("../image/product_bg.png") no-repeat;
+    background: url("/static/image/product_bg.png") no-repeat;
     position: absolute;
     cursor:pointer;
 }

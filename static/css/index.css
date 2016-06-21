@@ -42,7 +42,7 @@ body {
 #logo{
     width: 100px;
     height: 100px;
-    background-image: url("../image/logo.png");
+    background-image: url("/static/image/logo.png");
     background-size: cover;
     cursor:auto;
     opacity:1;
@@ -58,7 +58,7 @@ body {
     width: 200px;
     height: 200px;
     opacity:0;
-    background-image: url("../image/elipse_bg.png");
+    background-image: url("/static/image/elipse_bg.png");
     background-size: cover;
 }
 
@@ -107,7 +107,7 @@ body {
      height: 200px;
      opacity:0;
      z-index:1;
-     background-image: url("../image/inner_bg.png");
+     background-image: url("/static/image/inner_bg.png");
      background-size: cover;
      animation:inner 1s 3s linear forwards;
     -moz-animation:inner 1s 3s linear forwards;
@@ -160,7 +160,7 @@ body {
      width: 200px;
      height: 200px;
      opacity:0;
-     background-image: url("../image/elipse_bg.png");
+     background-image: url("/static/image/elipse_bg.png");
      background-size: cover;
      animation:outter 0.7s 3.3s linear forwards;
     -moz-animation:outter 0.7s 3.3s linear forwards;
@@ -202,19 +202,19 @@ body {
 }
 
 #abc{
-    background-image: url("../image/abc.png");
+    background-image: url("/static/image/abc.png");
 }
 
 #bocom{
-    background-image: url("../image/bocom.png");
+    background-image: url("/static/image/bocom.png");
 }
 
 #ccb{
-    background-image: url("../image/ccb.png");
+    background-image: url("/static/image/ccb.png");
 }
 
 #icbc{
-    background-image: url("../image/icbc.png");
+    background-image: url("/static/image/icbc.png");
 }
 
 /*银行图标的类*/
@@ -288,7 +288,7 @@ body {
     }
 }
 #abc_building{
-     background-image: url("../image/abc_building_before.png");
+     background-image: url("/static/image/abc_building_before.png");
      animation:abc 0.7s 4s ease-in-out forwards;
     -moz-animation:abc 0.7s 4s ease-in-out forwards;
     -webkit-animation:abc 0.7s 4s ease-in-out forwards;
@@ -298,11 +298,11 @@ body {
 #abc_bank{
      opacity:0;
      cursor:auto;
-     background-image: url("../image/abc_building_before.png");
+     background-image: url("/static/image/abc_building_before.png");
 }
 
 #abc_bank:hover{
-    background-image:url("../image/abc_building_after.png");
+    background-image:url("/static/image/abc_building_after.png");
 }
 @keyframes bocom{
     from {
@@ -354,7 +354,7 @@ body {
 }
 
 #bocom_building{
-     background-image: url("../image/bocom_building_before.png");
+     background-image: url("/static/image/bocom_building_before.png");
      animation:bocom 0.7s 4s ease-in-out forwards;
     -moz-animation:bocom 0.7s 4s ease-in-out forwards;
     -webkit-animation:bocom 0.7s 4s ease-in-out forwards;
@@ -364,11 +364,11 @@ body {
 #bocom_bank{
     opacity:0;
     cursor:auto;
-    background-image: url("../image/bocom_building_before.png");
+    background-image: url("/static/image/bocom_building_before.png");
 }
 
 #bocom_bank:hover{
-    background-image:url("../image/bocom_building_after.png");
+    background-image:url("/static/image/bocom_building_after.png");
 }
 
 
@@ -422,7 +422,7 @@ body {
 }
 
 #ccb_building {
-     background-image: url("../image/ccb_building_before.png");
+     background-image: url("/static/image/ccb_building_before.png");
      animation:ccb 0.7s 4s ease-in-out forwards;
     -moz-animation:ccb 0.7s 4s ease-in-out forwards;
     -webkit-animation:ccb 0.7s 4s ease-in-out forwards;
@@ -432,11 +432,11 @@ body {
 #ccb_bank{
     opacity:0;
     cursor:auto;
-    background-image: url("../image/ccb_building_before.png");
+    background-image: url("/static/image/ccb_building_before.png");
 }
 
 #ccb_bank:hover{
-    background-image:url("../image/ccb_building_after.png");
+    background-image:url("/static/image/ccb_building_after.png");
 }
 
 @keyframes icbc{
@@ -489,7 +489,7 @@ body {
 }
 
 #icbc_building{
-     background-image: url("../image/icbc_building_before.png");
+     background-image: url("/static/image/icbc_building_before.png");
      animation:icbc 0.7s 4s ease-in-out forwards;
     -moz-animation:icbc 0.7s 4s ease-in-out forwards;
     -webkit-animation:icbc 0.7s 4s ease-in-out forwards;
@@ -499,11 +499,11 @@ body {
 #icbc_bank{
     opacity:0;
     cursor:auto;
-    background-image: url("../image/icbc_building_before.png");
+    background-image: url("/static/image/icbc_building_before.png");
 }
 
 #icbc_bank:hover{
-    background-image: url("../image/icbc_building_after.png");
+    background-image: url("/static/image/icbc_building_after.png");
 }
 
 /*银行建筑图片的类*/
@@ -532,19 +532,19 @@ body {
 }
 
 #abc_info{
-    background-image:url("../image/abc_info.png");
+    background-image:url("/static/image/abc_info.png");
 }
 
 #bocom_info{
-    background-image:url("../image/bocom_info.png");
+    background-image:url("/static/image/bocom_info.png");
 }
 
 #ccb_info{
-    background-image:url("../image/ccb_info.png");
+    background-image:url("/static/image/ccb_info.png");
 }
 
 #icbc_info{
-    background-image:url("../image/icbc_info.png");
+    background-image:url("/static/image/icbc_info.png");
 }
 
 /*跳转主页的按键*/
@@ -558,31 +558,31 @@ body {
     cursor:pointer;
 }
 #goto_abc{
-    background-image:url("../image/goto_abc_before.png");
+    background-image:url("/static/image/goto_abc_before.png");
 }
 #goto_abc:hover{
-    background-image:url("../image/goto_abc_after.png");
+    background-image:url("/static/image/goto_abc_after.png");
 }
 
 #goto_bocom{
-    background-image:url("../image/goto_bocom_before.png");
+    background-image:url("/static/image/goto_bocom_before.png");
 }
 #goto_bocom:hover{
-    background-image:url("../image/goto_bocom_after.png");
+    background-image:url("/static/image/goto_bocom_after.png");
 }
 
 #goto_ccb{
-    background-image:url("../image/goto_ccb_before.png");
+    background-image:url("/static/image/goto_ccb_before.png");
 }
 #goto_ccb:hover{
-    background-image:url("../image/goto_ccb_after.png");
+    background-image:url("/static/image/goto_ccb_after.png");
 }
 
 #goto_icbc{
-    background-image:url("../image/goto_icbc_before.png");
+    background-image:url("/static/image/goto_icbc_before.png");
 }
 #goto_icbc:hover{
-    background-image:url("../image/goto_icbc_after.png");
+    background-image:url("/static/image/goto_icbc_after.png");
 }
 
 /*箭头的样式*/
@@ -598,7 +598,7 @@ body {
     z-index:2;
     top:0;
     left:0;
-    background-image:url("../image/arrowR.png");
+    background-image:url("/static/image/arrowR.png");
     transition:all 0.3s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -o-transition:all 0.3s ease-in-out;
@@ -616,7 +616,7 @@ body {
     top:0;
     left:0;
     position:absolute;
-    background-image:url("../image/arrowL.png");
+    background-image:url("/static/image/arrowL.png");
     transition:all 0.3s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -o-transition:all 0.3s ease-in-out;
@@ -633,7 +633,7 @@ body {
     z-index:2;
     top:0;
     left:0;
-    background-image:url("../image/abc_arrowU.png");
+    background-image:url("/static/image/abc_arrowU.png");
     transition:all 0.3s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -o-transition:all 0.3s ease-in-out;
@@ -655,7 +655,7 @@ body {
     background-size: contain;
     background-repeat:no-repeat;
     cursor:pointer;
-    background-image:url("../image/plan.png");
+    background-image:url("/static/image/plan.png");
 }
 .plan-movein{
     -webkit-animation: movefromtop 1s 4s both ease-in-out;
@@ -709,7 +709,7 @@ body {
     height:100px;
     background-size: contain;
     background-repeat:no-repeat;
-    background-image:url("../image/benefitdiv.png");
+    background-image:url("/static/image/benefitdiv.png");
 }
 .benefit-movein{
     -webkit-animation: movefromtop 0.5s 0s both ease-in-out;
